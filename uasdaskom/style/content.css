@@ -1,0 +1,142 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serrif;
+    background-color: #ffffff;
+    height: 100vh;
+    width: 100%;
+    display: block;
+}
+
+.spacer {
+    height: 0px;
+}
+
+.header {
+    background-image: url("../assets/images/hoach-le-dinh-_aUmSvPt77E-unsplash.jpg");
+    background-size: 100% 980px;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    color: #ffffff;
+}
+.navbar {
+    
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.brand-title{
+    display: flex;
+    align-items: center;
+}
+
+.firstname {
+    padding: 16px 0px 16px 30px; 
+
+}
+
+.lastname {
+    color: rgb(71, 129, 244);
+    font-weight: bold
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    align-items: center;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar li, a{
+    float: left;
+    padding: 16px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbar li,a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 7px;
+}
+
+.title {
+    padding: 20px 64px 2px 64px;
+}
+
+.title h1 {
+    font-size: 64px;
+    width: 500px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 92%;
+    height: 100vh;
+    margin: 64px;
+}
+
+.content-box {  
+    width: 30%;
+    height: 550px;
+    background-color: white ;
+    border: 1px solid;
+    border-color: rgb(236, 230, 230);
+    border-radius: 12px;
+    box-shadow: 1px 8px 12px rgba(0, 0, 0, 0.16);
+}
+
+
+
+.content-title {
+    width: 100%;
+    height: 75px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 22px;
+}
+
+.content-item {
+    padding: 20px;
+}
+
+.content-item p{
+    font-size: 12px;
+    text-decoration: none;
+    padding: none;
+    margin: none;
+}
+
+.content-item img{
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 16px;
+
+}
+
+.content-item a {
+    color: black;
+    padding: 0;
+    font-size: 12px;
+}
+
+.content-item a:hover{
+    text-decoration: underline;
+    color: purple;
+}
+
+.content-box:hover {
+    border-color: rgb(193, 190, 190);
+    cursor: pointer;
+    box-shadow: 1px 10px 12px rgba(191, 189, 189, 0.797);
+}
+

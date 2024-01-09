@@ -1,0 +1,90 @@
+html, body {
+    background-image: url("../assets/images/login-bg1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serrif;
+    background-color: #ffffff;
+    height: 100vh;
+    width: 100%;
+    display: block;
+}
+
+.wrapper {
+    display: flex; 
+    justify-content: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    width: 500px;
+    height: 600px;
+    background-color: #ffffff;
+
+
+    border-radius: 12px;
+}
+
+.title{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: first baseline;
+    font-size: 18px;
+
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input {
+    font-family: Montserrat, sans-serrif;
+
+    display: block;
+    outline: none;
+    padding: 14px;
+    margin-bottom: 12px;
+    background-color: #f2f7f2;
+    font-size: 14px;
+
+    border-style: double;
+
+    width: 350px;
+}
+
+.submit-btn {
+    margin-top: 12px;
+    width: 380px;
+
+
+
+    color: white;
+    background-color: rgb(61, 61, 211);
+    border: none;
+    border-radius: 8px;
+
+    
+}
+
+.submit-btn:hover {
+    background-color: rgba(61, 61, 211, 0.959);
+    cursor: pointer;
+}

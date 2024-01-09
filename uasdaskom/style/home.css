@@ -1,0 +1,175 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serrif;
+    background-color: #ffffff;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    /* overflow: auto; */
+}
+
+.spacer {
+    height: 32px;
+}
+
+.header {
+    background-image: url("../assets/images/home-header.jpg");
+    background-size: 100% 1200px;
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 100%;
+    color: #ffffff;
+}
+.navbar {
+    
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.brand-title{
+    display: flex;
+    align-items: center;
+}
+
+.firstname {
+    padding: 16px 0px 16px 30px; 
+
+}
+
+.lastname {
+    color: rgb(71, 129, 244);
+    font-weight: bold
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    align-items: center;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar li, a{
+    float: left;
+    padding: 16px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbar li,a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 7px;
+}
+
+.title {
+    padding: 20px;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.title h1 {
+    font-size: 64px;
+    width: 500px;
+}
+
+
+.overview{
+    width: 100%;
+    
+    align-items: center;
+
+    margin-top: 0;
+    background-color: #f2f7f2;
+}
+
+.overview-content {
+    display: flex;
+    padding: 60px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.introduction {
+    height: 1000px;
+    width: 100%;
+
+}
+
+.introduction-title {
+    padding-top: 68px;
+    padding-bottom: 38px;
+}
+
+
+
+.video-component {
+    padding: 20px;
+    width: 61%;
+}
+
+.btn-play{
+    height: 64px;
+    width: 64px;
+
+    cursor: pointer;
+
+}
+.btn-fastForward {
+    height: 32px;
+    width: 32px;
+
+    padding-bottom: 15px;
+    padding-left: 24px;
+
+    cursor: pointer;
+}
+
+.btn-backForward {
+    height: 31px;
+    width: 32px;
+
+    transform: rotate(180deg);
+
+    padding-top: 15px;
+    padding-left: 24px;
+
+    cursor: pointer;
+}
+
+.feature-container {
+    height: 1000px;
+
+}
+
+.blog-feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    display: block;
+    width: 100%;
+    height: 500px;
+
+    
+
+}
+
+.blog-feature img {
+    width: 400px;
+    float: left;
+}
+
+.blog-text {
+    margin-top: 100px;
+    margin-left: 100px;
+    float: left;
+    width: 500px;
+}
+
